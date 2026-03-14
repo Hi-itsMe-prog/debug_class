@@ -33,7 +33,7 @@ public class Debugger {
     public static void check(boolean cond, String msg) {
         if (!cond) {
             printIndent();
-            System.out.println("  ⚠️ " + msg);
+            System.out.println("  danger " + msg);
         }
     }
 
